@@ -8,4 +8,3 @@ Shifting Left
 @snap[west span-100 text-center text-yellow]
 More Security, Earlier in the software lifecycle
 @snapend
-
