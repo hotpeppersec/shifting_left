@@ -1,4 +1,4 @@
----?image=assets/img/bag.jpeg
+---?image=assets/img/bg.jpeg
 @title[Shifting Left]
 
 @snap[north-west span-100 text-20 text-bold text-center text-yellow]
