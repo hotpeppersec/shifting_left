@@ -1,11 +1,11 @@
 ---?image=assets/img/bg.jpeg
 @title[Shifting Left]
 
-@snap[north-west span-100 text-20 text-bold text-center text-red]
+@snap[north-west span-100 text-20 text-bold text-center text-orange]
 Shifting Left
 @snapend
 
-@snap[west span-100 text-center text-red]
+@snap[west span-100 text-center text-orange]
 More Security, Earlier in the software lifecycle
 @snapend
 
@@ -26,11 +26,11 @@ Fun for the Red Team Too!
 ---?image=assets/img/light_left.jpeg
 @title[Thank You]
 
-@snap[north-west span-100 text-20 text-bold text-center text-yellow]
+@snap[north-west span-100 text-20 text-bold text-center text-orange]
 Thank You
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-yellow]
+@snap[south-west span-200 text-left text-08 text-orange]
 @ul[circles](false)
 
 - [GitPitch Slide Decks for Developers](https://gitpitch.com/pricing)
