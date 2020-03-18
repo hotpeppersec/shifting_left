@@ -27,7 +27,7 @@ A Quick Bio
 @snap[south-west span-200 text-left text-08 text-orange]
 @ul[circles](false)
 
-- Consulting Engineer
+- Consulting Engineer at Palo Alto Networks
 - School
   - MS from DePaul University, Chicago in Network Engineering/Network Security
   - MS in Computer Information Systems from Northwestern
@@ -35,6 +35,7 @@ A Quick Bio
 - Past Work
   - Software Engineer at Motorola
   - Research & Development Engineer at Nokia Siemens Networks
+  - Security Data Sci/Eng at [@SecureCloudDev](https://twitter.com/SecureCloudDev)
 
 @ulend
 @snapend
@@ -45,6 +46,14 @@ A Quick Bio
 @snap[north-west span-100 text-20 text-bold text-left text-orange]
 Have a Plan!
 @snapend
+
+---?image=assets/img/light_left.jpeg
+@title[UseIt]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Master the Tools!
+@snapend
+
 
 ---?image=assets/img/light_left.jpeg
 @title[Red]
