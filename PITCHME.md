@@ -24,11 +24,10 @@ Note:
 A Quick Bio
 @snapend
 
-
 @snap[south-west span-200 text-left text-08 text-orange]
 @ul[circles](false)
 
-- Consulting Engineer 
+- Consulting Engineer
 - School
   - MS from DePaul University, Chicago in Network Engineering/Network Security
   - MS in Computer Information Systems from Northwestern
@@ -47,8 +46,8 @@ A Quick Bio
 Fun for the Red Team Too!
 @snapend
 
-https://blog.xpnsec.com/testing-redteam-infra/
-https://www.mdsec.co.uk/2020/03/offensive-development-with-github-actions/
+- [Testing Red Team Infra](https://blog.xpnsec.com/testing-redteam-infra/)
+- [Offensive Dev with GitHub Actions](https://www.mdsec.co.uk/2020/03/offensive-development-with-github-actions/)
 
 ---?image=assets/img/light_left.jpeg
 @title[Thank You]
