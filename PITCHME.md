@@ -40,6 +40,13 @@ A Quick Bio
 @snapend
 
 ---?image=assets/img/light_left.jpeg
+@title[Policy]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Have a Plan!
+@snapend
+
+---?image=assets/img/light_left.jpeg
 @title[Red]
 
 @snap[north-west span-100 text-20 text-bold text-left text-orange]
