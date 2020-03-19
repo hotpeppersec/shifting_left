@@ -5,7 +5,7 @@
 Shifting Left
 @snapend
 
-@snap[west span-100 text-center text-orange]
+@snap[west span-80 text-center text-orange]
 More Security, Earlier in the Software Development Lifecycle
 @snapend
 
@@ -20,7 +20,7 @@ Note:
 ---?image=assets/img/black_and_blue.jpeg
 @title[Bio]
 
-@snap[north-west span-100 text-20 text-bold text-left text-yellow]
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
 A Quick Bio
 @snapend
 
@@ -43,7 +43,7 @@ A Quick Bio
 ---?image=assets/img/light_left.jpeg
 @title[Policy]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
 Have a Plan!
 @snapend
 
@@ -59,11 +59,11 @@ Have a Plan!
 ---?image=assets/img/light_left.jpeg
 @title[Uniformity]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
 Uniformity
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
+@snap[south-west span-200 text-right text-08 text-orange]
 @ul[circles](false)
 
 - Your situation is not so unique that you qualify for an exception.
@@ -79,7 +79,7 @@ Uniformity
 ---?image=assets/img/light_left.jpeg
 @title[Agile]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
 Leverage Agile Practices
 @snapend
 
