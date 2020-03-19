@@ -47,13 +47,64 @@ A Quick Bio
 Have a Plan!
 @snapend
 
+- use of SECURITY.md
+
+---?image=assets/img/light_left.jpeg
+@title[Uniformity]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Uniformity
+@snapend
+
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
+- Drive out fragmented security process.
+  - Security tends to vary by application/location/team.
+  - Disparate systems contribute to gaps in network security posture.
+- Avoid looking at "slices" of traffic or applications.
+  - Go for holism.
+
+@ulend
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Agile]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Leverage Agile Practices
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Heavy]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Beware the Heavy Hand
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Scrutiny]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Open it Up
+@snapend
+
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
+- Document your processes. 
+- Open Source your tools.
+- Solicit feedback and scrutiny.
+
+@ulend
+@snapend
+
 ---?image=assets/img/light_left.jpeg
 @title[UseIt]
 
 @snap[north-west span-100 text-20 text-bold text-left text-orange]
 Master the Tools!
 @snapend
-
 
 ---?image=assets/img/light_left.jpeg
 @title[Red]
@@ -62,8 +113,14 @@ Master the Tools!
 Fun for the Red Team Too!
 @snapend
 
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
 - [Testing Red Team Infra](https://blog.xpnsec.com/testing-redteam-infra/)
 - [Offensive Dev with GitHub Actions](https://www.mdsec.co.uk/2020/03/offensive-development-with-github-actions/)
+
+@ulend
+@snapend
 
 ---?image=assets/img/light_left.jpeg
 @title[Thank You]
