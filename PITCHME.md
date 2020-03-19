@@ -43,19 +43,19 @@ A Quick Bio
 ---?image=assets/img/black_and_blue.jpeg
 @title[Bio]
 
-@snap[west span-45 text-orange]
+@snap[west span-60 text-orange]
 A Quick Bio
 @snapend
 
-@snap[north-east span-60]
+@snap[north-east span-45]
 @box[bg-purple text-orange](Current:#Consulting Engineer at Palo Alto Networks)
 @snapend
 
-@snap[east span-60]
+@snap[east span-45]
 @box[bg-blue text-orange](Previous#Motorola/R&D Nokia Siemens Networks/Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
 @snapend
 
-@snap[south-east span-60]
+@snap[south-east span-45]
 @box[bg-pink text-orange](Education#MS DePaul University/MS Northwestern/BS in CS)
 @snapend
 
