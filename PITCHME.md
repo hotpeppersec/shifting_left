@@ -44,7 +44,7 @@ A Quick Bio
 @title[Bio]
 
 @snap[west span-45 text-orange]
-# A Quick Bio
+A Quick Bio
 @snapend
 
 @snap[north-east span-60]
