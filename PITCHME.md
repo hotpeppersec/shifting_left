@@ -25,12 +25,16 @@ Note:
 @snapend
 
 @snap[east span-45]
-@box[bg-blue text-yellow text-08](Previous#Motorola/R&D Nokia Siemens Networks/Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
+@box[bg-blue text-yellow text-08](Previous#Motorola<br>R&D Nokia Siemens Networks<br>Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
 @snapend
 
 @snap[south-east span-45 text-08]
-@box[bg-pink text-yellow](Education#MS DePaul University/MS Northwestern/BS in CS)
+@box[bg-pink text-yellow](Education#MS DePaul University<br>MS Northwestern<br>BS in Comp Sci)
 @snapend
+
+Note:
+
+- CE gets called in to assist SE's as a subject matter expert.
 
 ---?image=assets/img/light_left.jpeg
 @title[What]
