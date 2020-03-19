@@ -1,12 +1,8 @@
 ---?image=assets/img/light_left.jpeg
 @title[Shifting Left]
 
-@snap[north-west span-100 text-20 text-bold text-center text-orange]
-Shifting Left
-@snapend
-
-@snap[west span-80 text-center text-orange]
-More Security, Earlier in the Software Development Lifecycle
+@snap[east]
+@img[span-50](assets/img/title.png)
 @snapend
 
 Note:
@@ -20,43 +16,27 @@ Note:
 ---?image=assets/img/black_and_blue.jpeg
 @title[Bio]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
-A Quick Bio
-@snapend
-
-@snap[south-west span-200 text-left text-08 text-orange]
-@ul[circles](false)
-
-- Consulting Engineer at Palo Alto Networks
-- School
-  - MS from DePaul University, Chicago in Network Engineering/Network Security
-  - MS in Computer Information Systems from Northwestern
-  - BS in Computer Science
-- Past Work
-  - Software Engineer at Motorola
-  - Research & Development Engineer at Nokia Siemens Networks
-  - Security Data Sci/Eng at [@SecureCloudDev](https://twitter.com/SecureCloudDev)
-
-@ulend
-@snapend
-
----?image=assets/img/black_and_blue.jpeg
-@title[Bio]
-
 @snap[west]
 @img[span-50](assets/img/us.jpg)
 @snapend
 
 @snap[north-east span-45 text-08]
-@box[bg-purple text-orange](Current#Consulting Engineer at Palo Alto Networks)
+@box[bg-purple text-yellow](Current#Consulting Engineer at Palo Alto Networks)
 @snapend
 
 @snap[east span-45]
-@box[bg-blue text-orange text-08](Previous#Motorola/R&D Nokia Siemens Networks/Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
+@box[bg-blue text-yellow text-08](Previous#Motorola/R&D Nokia Siemens Networks/Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
 @snapend
 
 @snap[south-east span-45 text-08]
-@box[bg-pink text-orange](Education#MS DePaul University/MS Northwestern/BS in CS)
+@box[bg-pink text-yellow](Education#MS DePaul University/MS Northwestern/BS in CS)
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[What]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Shift What?
 @snapend
 
 ---?image=assets/img/light_left.jpeg
