@@ -2,7 +2,7 @@
 @title[Shifting Left]
 
 @snap[east]
-@img[span-50](assets/img/title.png)
+@img[](assets/img/title.png)
 @snapend
 
 Note:
