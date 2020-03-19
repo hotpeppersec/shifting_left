@@ -6,7 +6,7 @@ Shifting Left
 @snapend
 
 @snap[west span-100 text-center text-orange]
-More Security, Earlier in the software lifecycle
+More Security, Earlier in the Software Development Lifecycle
 @snapend
 
 Note:
@@ -112,6 +112,35 @@ Open it Up
 
 @snap[north-west span-100 text-20 text-bold text-left text-orange]
 Master the Tools!
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Testing]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+More Testing!
+@snapend
+
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
+- Everyone understands testing, conceptually.
+  - Very few are following through!
+- Monitor the percentage of test coverage.
+- Create unit & functional tests to keep coverage high.
+
+@ulend
+@snapend
+
+@snap[north-east]
+![IMAGE](assets/img/sec-test.jpg)
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[CI]
+
+@snap[north-west span-100 text-20 text-bold text-left text-orange]
+Automate Checks via CI
 @snapend
 
 ---?image=assets/img/light_left.jpeg
