@@ -40,6 +40,31 @@ A Quick Bio
 @ulend
 @snapend
 
+---?image=assets/img/black_and_blue.jpeg
+@title[Bio]
+
+@snap[west span-45 text-orange]
+# A Quick Bio
+@snapend
+
+@snap[north-east span-60]
+@box[bg-purple text-orange](Current:#Consulting Engineer at Palo Alto Networks)
+@snapend
+
+@snap[east span-60]
+@box[bg-blue text-orange](Previous#  
+  - Software Engineer at Motorola
+  - Research & Development Engineer at Nokia Siemens Networks
+  - Security Data Sci/Eng at [@SecureCloudDev](https://twitter.com/SecureCloudDev))
+@snapend
+
+@snap[south-east span-60]
+@box[bg-pink text-orange](Education#
+  - MS from DePaul University, Chicago in Network Engineering/Network Security
+  - MS in Computer Information Systems from Northwestern
+  - BS in Computer Science)
+@snapend
+
 ---?image=assets/img/light_left.jpeg
 @title[Policy]
 
