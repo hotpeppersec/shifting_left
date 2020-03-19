@@ -47,7 +47,14 @@ A Quick Bio
 Have a Plan!
 @snapend
 
-- use of SECURITY.md
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
+- Folks need to know how to reach you/your team with issues.
+- For GitHub.com, use of SECURITY.md for example.
+
+@ulend
+@snapend
 
 ---?image=assets/img/light_left.jpeg
 @title[Uniformity]
@@ -59,6 +66,7 @@ Uniformity
 @snap[south-west span-200 text-left text-08 text-orange]
 @ul[circles](false)
 
+- Your situation is not so unique that you qualify for an exception.
 - Drive out fragmented security process.
   - Security tends to vary by application/location/team.
   - Disparate systems contribute to gaps in network security posture.
@@ -92,7 +100,7 @@ Open it Up
 @snap[south-west span-200 text-left text-08 text-orange]
 @ul[circles](false)
 
-- Document your processes. 
+- Document your processes.
 - Open Source your tools.
 - Solicit feedback and scrutiny.
 
