@@ -44,10 +44,10 @@ A Quick Bio
 @title[Bio]
 
 @snap[west]
-@img[span-65](assets/img/us.jpg)
+@img[span-50](assets/img/us.jpg)
 @snapend
 
-@snap[north-east span-45] text-08
+@snap[north-east span-45 text-08]
 @box[bg-purple text-orange](Current#Consulting Engineer at Palo Alto Networks)
 @snapend
 
