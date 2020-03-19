@@ -52,17 +52,11 @@ A Quick Bio
 @snapend
 
 @snap[east span-60]
-@box[bg-blue text-orange](Previous#  
-  - Software Engineer at Motorola
-  - Research & Development Engineer at Nokia Siemens Networks
-  - Security Data Sci/Eng at [@SecureCloudDev](https://twitter.com/SecureCloudDev))
+@box[bg-blue text-orange](Previous#Motorola/R&D Nokia Siemens Networks/Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
 @snapend
 
 @snap[south-east span-60]
-@box[bg-pink text-orange](Education#
-  - MS from DePaul University, Chicago in Network Engineering/Network Security
-  - MS in Computer Information Systems from Northwestern
-  - BS in Computer Science)
+@box[bg-pink text-orange](Education#MS DePaul University/MS Northwestern/BS in CS)
 @snapend
 
 ---?image=assets/img/light_left.jpeg
