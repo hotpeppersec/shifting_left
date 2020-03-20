@@ -139,7 +139,7 @@ More Testing!
 @ulend
 @snapend
 
-@snap[span-50]
+@snap[midpoint span-50]
 ![us](assets/img/sec-test.jpg)
 @snapend
 
@@ -150,7 +150,7 @@ More Testing!
 Have a Plan!
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
+@snap[east span-50 text-left text-08 text-orange]
 @ul[circles](false)
 
 - Things never turn out the way we envision them. Stuff Happens.
@@ -160,7 +160,7 @@ Have a Plan!
 @ulend
 @snapend
 
-@snap[span-50]
+@snap[midpoint span-45]
 ![wurst](assets/img/wurst.jpeg)
 @snapend
 
