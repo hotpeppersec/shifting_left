@@ -25,7 +25,7 @@ Note:
 @snapend
 
 @snap[east span-45]
-@box[bg-blue text-yellow text-08](Previous#Motorola<br>R&D Nokia Siemens Networks<br>Security Data Sci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
+@box[bg-blue text-yellow text-08](Previous#Motorola<br>R&D Eng at Nokia Siemens<br>SecDataSci [@SecureCloudDev](https://twitter.com/SecureCloudDev))
 @snapend
 
 @snap[south-east span-45 text-08]
@@ -35,6 +35,11 @@ Note:
 Note:
 
 - CE gets called in to assist SE's as a subject matter expert.
+- Tech Lead in cellular base station product dev at Moto.
+- Bought out by NSN
+- Wound up at Salesforce doing security data science.
+  - Use ML to deal with 1B security logs per day.
+- MS in network eng, network security
 
 ---?image=assets/img/light_left.jpeg
 @title[What]
@@ -43,21 +48,20 @@ Note:
 Shift What?
 @snapend
 
----?image=assets/img/light_left.jpeg
-@title[Policy]
-
-@snap[north-west span-100 text-20 text-bold text-right text-orange]
-Have a Plan!
-@snapend
-
 @snap[south-west span-200 text-left text-08 text-orange]
-@ul[circles](false)
+@ul[circles](true)
 
-- Folks need to know how to reach you/your team with issues.
-- For GitHub.com, use of SECURITY.md for example.
+- Address bugs and issues at the earliest.
+  - Resolve issues sooner than w/traditional methods.
+- Early amalgamation of security concerns and dev concerns.
+  - Not always (never?) the same set of goals!
 
 @ulend
 @snapend
+
+Note:
+
+- we often hear that sec is **everyones responsibility**
 
 ---?image=assets/img/light_left.jpeg
 @title[Uniformity]
@@ -135,8 +139,29 @@ More Testing!
 @ulend
 @snapend
 
-@snap[north-east]
-![IMAGE](assets/img/sec-test.jpg)
+@snap[span-50]
+![us](assets/img/sec-test.jpg)
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Policy]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Have a Plan!
+@snapend
+
+@snap[south-west span-200 text-left text-08 text-orange]
+@ul[circles](false)
+
+- Things never turn out the way we envision them. Stuff Happens.
+- Folks need to know how to reach you/your team with issues.
+- For GitHub.com, [use of SECURITY.md for example](https://github.com/hotpeppersec/shifting_left/security/policy).
+
+@ulend
+@snapend
+
+@snap[span-50]
+![wurst](assets/img/wurst.jpeg)
 @snapend
 
 ---?image=assets/img/light_left.jpeg
