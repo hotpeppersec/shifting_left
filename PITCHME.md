@@ -48,20 +48,28 @@ Note:
 Shift What?
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
+@snap[midpoint span-180 text-right text-07 text-orange]
 @ul[circles](true)
 
 - Address bugs and issues at the earliest.
-  - Resolve issues sooner than w/traditional methods.
 - Early amalgamation of security concerns and dev concerns.
   - Not always (never?) the same set of goals!
 
 @ulend
 @snapend
 
+@snap[south span-40]
+![shift](assets/img/shift_graphic.png)
+@snapend
+
 Note:
 
+- Cool graphic stolen from testingxperts.com, so be sure to check them out since they are an unwitting sponsor.
+- This talk comes at it from the viewpoint of a sec person who needs to get the dev teams on board.
 - we often hear that sec is **everyones responsibility**
+  - Resolve issues sooner than w/traditional methods.
+- The impact of software issues (bugs) is amplified as we move down the path of software lifecycle.
+  - Reduce the imact, costs, and likelihood of security issues by identifying and correcting sooner.
 
 ---?image=assets/img/light_left.jpeg
 @title[Uniformity]
@@ -70,7 +78,7 @@ Note:
 Uniformity
 @snapend
 
-@snap[south-west span-200 text-right text-08 text-orange]
+@snap[south-east span-180 text-right text-08 text-orange]
 @ul[circles](false)
 
 - Your situation is not so unique that you qualify for an exception.
@@ -82,6 +90,12 @@ Uniformity
 
 @ulend
 @snapend
+
+Note:
+
+- No special configs or situations!
+- Try to take the 100K foot view to see the big picture as well.
+  - Consider how all the parts fit together.
 
 ---?image=assets/img/light_left.jpeg
 @title[Agile]
@@ -100,12 +114,12 @@ Beware the Heavy Hand
 ---?image=assets/img/light_left.jpeg
 @title[Scrutiny]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
+@snap[north span-100 text-20 text-bold text-orange]
 Open it Up
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
-@ul[circles](false)
+@snap[south span-200 text-right text-08 text-orange]
+@ul[circles](true)
 
 - Document your processes.
 - Open Source your tools.
@@ -114,34 +128,131 @@ Open it Up
 @ulend
 @snapend
 
+@snap[midpoint span-40]
+![us](assets/img/engine.png)
+@snapend
+
+Note:
+
+- Subject your work to constructive criticism!
+- You are most likely benefitting from open source software. Try to give back.
+
 ---?image=assets/img/light_left.jpeg
 @title[UseIt]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
-Master the Tools!
+@snap[north span-100 text-20 text-bold text-orange]
+Master the Tools
 @snapend
+
+Note:
+
+- There are tons of free tools out there. Learn and use them.
 
 ---?image=assets/img/light_left.jpeg
 @title[Testing]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
+@snap[north span-100 text-20 text-bold text-orange]
 More Testing!
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
-@ul[circles](false)
+@snap[south-east span-100 text-right text-08 text-orange]
+@ul[circles](true)
 
 - Everyone understands testing, conceptually.
-  - Very few are following through!
+- Very few seem to be following through!
+  - Tons of code out there, not a lot of test cases.
+
+@ulend
+@snapend
+
+@snap[midpoint span-65]
+![us](assets/img/sec-test.jpg)
+@snapend
+
+Note:
+
+- We've all sat through the class or read the blog about the need for testing.
+- Why aren't you testing?
+  - You can browse GitHub and see most projects don;t include tests.
+
+---?image=assets/img/light_left.jpeg
+@title[Coverage]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Keep an Eye on Test Coverage
+@snapend
+
+@snap[midpoint span-200 text-08 text-orange]
+@ul[circles](false)
+
 - Monitor the percentage of test coverage.
+  - For example: [coveralls.io](https://coveralls.io/)
 - Create unit & functional tests to keep coverage high.
 
 @ulend
 @snapend
 
-@snap[midpoint span-50]
-![us](assets/img/sec-test.jpg)
+@snap[south span-50]
+![us](assets/img/perfect_code.png)
 @snapend
+
+Note:
+
+- In the Python world, use "coverage" module with maybe Tox & Pytest.
+
+---?image=assets/img/light_left.jpeg
+@title[Lint]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Use the Linters
+@snapend
+
+Note:
+
+- Take advantage of free lint tools to keep it tight.
+
+---?image=assets/img/light_left.jpeg
+@title[Reviews]
+
+@snap[north-west span-70 text-20 text-bold text-right text-orange]
+Code Reviews
+@snapend
+
+Note:
+
+- Don't skip them.
+
+---?image=assets/img/light_left.jpeg
+@title[CI]
+
+@snap[north-west span-70 text-20 text-bold text-right text-orange]
+Automate Checks via CI
+@snapend
+
+@snap[midpoint span-40]
+![checks](assets/img/checks.png)
+@snapend
+
+Note:
+
+- run your tests & linters when people check in new code
+  - GitHub Actions
+  - CodeFresh
+  - Travis
+  - GitLab CI
+  - Circle CI
+- Don't trust Sec/Dev to run ther tests.
+
+---?image=assets/img/light_left.jpeg
+@title[Scan]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Free Scanners
+@snapend
+
+Note:
+
+- LGTM.com
 
 ---?image=assets/img/light_left.jpeg
 @title[Policy]
@@ -150,42 +261,45 @@ More Testing!
 Have a Plan!
 @snapend
 
-@snap[east span-50 text-left text-08 text-orange]
+@snap[east span-55 text-right text-08 text-orange]
 @ul[circles](false)
 
 - Things never turn out the way we envision them. Stuff Happens.
 - Folks need to know how to reach you/your team with issues.
 - For GitHub.com, [use of SECURITY.md for example](https://github.com/hotpeppersec/shifting_left/security/policy).
+  - You can also issue security advisories to your user base this way.
 
 @ulend
 @snapend
 
-@snap[midpoint span-45]
+@snap[west span-40]
 ![wurst](assets/img/wurst.jpeg)
-@snapend
-
----?image=assets/img/light_left.jpeg
-@title[CI]
-
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
-Automate Checks via CI
 @snapend
 
 ---?image=assets/img/light_left.jpeg
 @title[Red]
 
-@snap[north-west span-100 text-20 text-bold text-left text-orange]
-Fun for the Red Team Too!
+@snap[north-east span-75 text-14 text-bold text-orange]
+Fun for the Red Team Too
 @snapend
 
-@snap[south-west span-200 text-left text-08 text-orange]
+@snap[midpoint span-250 text-07 text-orange]
 @ul[circles](false)
 
-- [Testing Red Team Infra](https://blog.xpnsec.com/testing-redteam-infra/)
-- [Offensive Dev with GitHub Actions](https://www.mdsec.co.uk/2020/03/offensive-development-with-github-actions/)
+- [Testing Red Team Infra](https://blog.xpnsec.com/testing-redteam-infra/) by [@_xpn_](https://twitter.com/_xpn_)
+- [Offensive Dev with GitHub Actions](https://www.mdsec.co.uk/2020/03/offensive-development-with-github-actions/) by [@MDSecLabs](https://twitter.com/MDSecLabs)
 
 @ulend
 @snapend
+
+@snap[south span-30]
+![hac](assets/img/hac.png)
+@snapend
+
+Note:
+
+- First link is terraform/ansible/molecule, red team Infra as Code
+- Second link is using GitHub Actions to interface with Cobalt Strike.
 
 ---?image=assets/img/light_left.jpeg
 @title[Thank You]
