@@ -341,8 +341,8 @@ More Testing!
 @box[text-orange](Tons of code out there, not a lot of test cases)
 @snapend
 
-@snap[midpoint span-65]
-![us](assets/img/sec-test.jpg)
+@snap[midpoint span-55]
+![us](assets/img/testing.jpg)
 @snapend
 
 Note:
