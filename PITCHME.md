@@ -83,8 +83,8 @@ Note:
 Shift What?
 @snapend
 
-@snap[midpoint span-60]
-![shift](assets/img/shift_graphic.png)
+@snap[midpoint span-80]
+![shift](assets/img/shift_left.png)
 @snapend
 
 @snap[south-west span-35 text-08]
@@ -101,7 +101,6 @@ Shift What?
 
 Note:
 
-- Cool graphic stolen from testingxperts.com, so be sure to check them out since they are an unwitting sponsor.
 - This talk comes at it from the viewpoint of a sec person who needs to get the dev teams on board.
 - we often hear that sec is **everyones responsibility**
   - Resolve issues sooner than w/traditional methods.
