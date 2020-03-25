@@ -45,12 +45,13 @@ Note:
 - Please do provide feedback via "issues"
 - My speaking style is fairly informal and if you stop me with a question I will do my best to answer it.
 - [issues](https://github.com/hotpeppersec/shifting_left/issues)
+- I will attempt to strike a balance begtween tactical and logistical concerns
 
 ---?image=assets/img/black_and_blue.jpeg
 @title[Bio]
 
 @snap[west]
-@img[span-50](assets/img/us.jpg)
+![span-50](assets/img/us.jpg)
 @snapend
 
 @snap[north-east span-45 text-08]
@@ -107,6 +108,91 @@ Note:
   - Reduce the imact, costs, and likelihood of security issues by identifying and correcting sooner.
 
 ---?image=assets/img/light_left.jpeg
+@title[Main Point]
+
+@snap[north span-100 text-20 text-bold text-orange]
+The Main Point
+@snapend
+
+@snap[midpoint text-08 span-40 text-orange]
+@ul[circles](true)
+
+- Lots of folks want to embed security people in the dev teams
+- Instead, let's get security folks to start thinking likes developers
+
+@ulend
+@snapend
+
+@snap[east span-25]
+![bulb](assets/img/lightbulb_clip.jpeg)
+@snapend
+
+Note:
+
+- But how do we begin the left shift?
+  - Let's look at some ways.
+  - here is the main take away.
+- Developers are heads down focused on shipping code under tight deadlines.
+
+---?image=assets/img/light_left.jpeg
+@title[Agile]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Adopt Agile Practices
+@snapend
+
+@snap[midpoint span-60]
+![agile](assets/img/agile.jpeg)
+@snapend
+
+@snap[south-west span-35 text-08]
+@box[text-orange](Use agile to align with dev teams) if you like)
+@snapend
+
+@snap[south span-35 text-08]
+@box[text-orange](Cherrypick the best "ways of working")
+@snapend
+
+@snap[south-east span-35 text-08]
+@box[text-orange](It's a direction, not a destination)
+@snapend
+
+Note:
+
+- I stole this image from stackify.com
+  - I'm sure whatever they sell is cool so go check them out.
+- Choose/complement the agile processes that work for your team.
+- Move toward security as code
+
+---?image=assets/img/light_left.jpeg
+@title[Scrutiny]
+
+@snap[north span-100 text-20 text-bold text-orange]
+Open it Up
+@snapend
+
+@snap[south-west span-30 text-08]
+@box[text-orange](Solicit feedback and scrutiny)
+@snapend
+
+@snap[south span-30 text-08]
+@box[text-orange](Document your processes)
+@snapend
+
+@snap[south-east span-30 text-08]
+@box[text-orange](Open Source your tools)
+@snapend
+
+@snap[midpoint span-60]
+![us](assets/img/engine.png)
+@snapend
+
+Note:
+
+- Subject your work to constructive criticism!
+- You are most likely benefitting from open source software. Try to give back.
+
+---?image=assets/img/light_left.jpeg
 @title[Consistency]
 
 @snap[north-west span-100 text-20 text-bold text-center text-orange]
@@ -131,6 +217,7 @@ Consistency
 
 Note:
 
+- You might recognize this image from the movie "Casino"
 - Your situation is not so unique that you qualify for an exception.
 - Drive out fragmented security process.
   - Security tends to vary by application/location/team.
@@ -142,15 +229,37 @@ Note:
   - Consider how all the parts fit together.
 
 ---?image=assets/img/light_left.jpeg
-@title[Agile]
+@title[Reviews]
 
-@snap[north-west span-100 text-20 text-bold text-right text-orange]
-Adopt Agile Practices
+@snap[north-west span-70 text-20 text-bold text-right text-orange]
+Code Reviews
+@snapend
+
+@snap[midpoint span-40]
+![us](assets/img/code_review.jpeg)
+@snapend
+
+@snap[south-west span-35 text-08]
+@box[text-orange](Having a second set of eyes on work products (not just "code") is huge)
+@snapend
+
+@snap[south span-30 text-08]
+@box[text-orange](Great way to shake out bugs)
+@snapend
+
+@snap[south-east span-30 text-08]
+@box[text-orange](Creates a trail of accountability)
 @snapend
 
 Note:
 
-- Move toward security as code
+- You are doing code reviews, aren't you?
+- Don't skip them.
+- You can set your git PR's to require reviews before merging.
+- Two people looking at the same PR will often find different issues.
+- You have a history of who reviewed and approved things.
+  - Senior folks can keep an eye on the jr folks.
+- You can require certain folks (security person for instance) to participate in reviews.
 
 ---?image=assets/img/light_left.jpeg
 @title[Heavy]
@@ -183,34 +292,6 @@ Note:
 - The old adage "you catch more flies with honey" still applies
 - Get folks to own and adpot the process.
   - We need champions and pertners, not subjects.
-
----?image=assets/img/light_left.jpeg
-@title[Scrutiny]
-
-@snap[north span-100 text-20 text-bold text-orange]
-Open it Up
-@snapend
-
-@snap[south-west span-30 text-08]
-@box[text-orange](Solicit feedback and scrutiny)
-@snapend
-
-@snap[south span-30 text-08]
-@box[text-orange](Document your processes)
-@snapend
-
-@snap[south-east span-30 text-08]
-@box[text-orange](Open Source your tools)
-@snapend
-
-@snap[midpoint span-60]
-![us](assets/img/engine.png)
-@snapend
-
-Note:
-
-- Subject your work to constructive criticism!
-- You are most likely benefitting from open source software. Try to give back.
 
 ---?image=assets/img/light_left.jpeg
 @title[UseIt]
@@ -303,27 +384,23 @@ Note:
 Use the Linters
 @snapend
 
-Note:
-
-- Take advantage of free lint tools to keep it tight.
-
----?image=assets/img/light_left.jpeg
-@title[Reviews]
-
-@snap[north-west span-70 text-20 text-bold text-right text-orange]
-Code Reviews
+@snap[midpoint span-45]
+![lint](assets/img/lint.jpeg)
 @snapend
 
 Note:
 
-- You are doing code reviews, aren't you?
-- Don't skip them.
+- Take advantage of free lint tools to keep it tight.
 
 ---?image=assets/img/light_left.jpeg
 @title[Owners]
 
 @snap[north-west span-70 text-20 text-bold text-right text-orange]
 Code Owners
+@snapend
+
+@snap[midpoint span-85]
+![ops](assets/img/ops_prob.jpeg)
 @snapend
 
 Note:
@@ -337,6 +414,34 @@ Note:
 Automate Checks via CI
 @snapend
 
+@snap[midpoint span-55 text-08 text-orange]
+@ul[circles](false)
+
+- GitHub Actions
+- CodeFresh
+- Travis
+- GitLab CI
+- Circle CI
+
+@ulend
+@snapend
+
+Note:
+
+- GitHub Actions
+- CodeFresh
+- Travis CI
+- GitLab CI
+- Circle CI
+- Don't trust Sec/Dev to run ther tests.
+
+---?image=assets/img/light_left.jpeg
+@title[CI]
+
+@snap[north-east span-70 text-20 text-bold text-right text-orange]
+CI Example
+@snapend
+
 @snap[south span-70]
 ![checks](assets/img/checks.png)
 @snapend
@@ -344,12 +449,6 @@ Automate Checks via CI
 Note:
 
 - run your tests & linters when people check in new code
-  - GitHub Actions
-  - CodeFresh
-  - Travis
-  - GitLab CI
-  - Circle CI
-- Don't trust Sec/Dev to run ther tests.
 
 ---?image=assets/img/light_left.jpeg
 @title[Scan]
@@ -358,9 +457,18 @@ Note:
 Free Scanners
 @snapend
 
+@snap[midpoint span-55 text-08 text-orange]
+@ul[circles](false)
+
+- [LGTM.com](https://lgtm.com/)
+- [Renovate Bot](https://renovate.whitesourcesoftware.com/)
+
+@ulend
+@snapend
+
 Note:
 
-- LGTM.com
+- Here are a few that I've been using lately
 
 ---?image=assets/img/light_left.jpeg
 @title[Policy]
