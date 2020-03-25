@@ -72,7 +72,8 @@ Note:
 - Tech Lead in cellular base station product dev at Moto.
 - Bought out by NSN
 - Wound up at Salesforce doing security data science.
-  - Use ML to deal with 1B security logs per day.
+  - In-house log aggregation solution for sec logs
+  - Our team used ML to deal with 1B security logs per day.
 - MS in network eng, network security
 
 ---?image=assets/img/light_left.jpeg
@@ -300,9 +301,27 @@ Note:
 Master the Tools
 @snapend
 
+@snap[midpoint]
+![Thank You](https://media.giphy.com/media/fSSGX7IHcqlDYwVYsH/giphy.gif)
+@snapend
+
+@snap[south-west span-30 text-08]
+@box[text-orange](Always be learning)
+@snapend
+
+@snap[south span-30 text-08]
+@box[text-orange](Practice locally & [template repos](https://github.com/hotpeppersec/rapid_secdev_framework))
+@snapend
+
+@snap[south-east span-30 text-08]
+@box[text-orange](Automate the useful checks)
+@snapend
+
 Note:
 
 - There are tons of free tools out there. Learn and use them.
+- I have a template repo just for best practices & cool techniques. (see link)
+- If you get some checks working, try to automate!
 
 ---?image=assets/img/light_left.jpeg
 @title[Testing]
@@ -380,7 +399,7 @@ Note:
 ---?image=assets/img/light_left.jpeg
 @title[Lint]
 
-@snap[north-west span-100 text-20 text-bold text-right text-orange]
+@snap[north span-100 text-20 text-bold text-orange]
 Use the Linters
 @snapend
 
@@ -388,9 +407,22 @@ Use the Linters
 ![lint](assets/img/lint.jpeg)
 @snapend
 
+@snap[south-west span-35 text-08]
+@box[text-orange](Take advantage of free lint tools to keep it tight)
+@snapend
+
+@snap[south-east span-35 text-08]
+@box[text-orange](available locally & enforced on check-in)
+@snapend
+
+@snap[south span-35 text-08]
+@box[text-orange](OK to opt out of some rules)
+@snapend
+
 Note:
 
 - Take advantage of free lint tools to keep it tight.
+- I opt out of a few rules
 
 ---?image=assets/img/light_left.jpeg
 @title[Owners]
@@ -403,65 +435,91 @@ Code Owners
 ![ops](assets/img/ops_prob.jpeg)
 @snapend
 
+@snap[south-west span-35 text-08]
+@box[text-orange](GitHub allows [CODEOWNERS](https://help.github.com/en/enterprise/2.15/user/articles/about-code-owners))
+@snapend
+
+@snap[south span-35 text-08]
+@box[text-orange](This will auto-add owners to code reviews)
+@snapend
+
+@snap[south-east span-35 text-08]
+@box[text-orange](Increase accountability & awareness)
+@snapend
+
 Note:
 
-- Have some
+- Tag the right people
+- who to blame
 
 ---?image=assets/img/light_left.jpeg
 @title[CI]
 
-@snap[north-east span-70 text-20 text-bold text-right text-orange]
+@snap[north-east text-18 text-bold text-orange]
 Automate Checks via CI
 @snapend
 
-@snap[midpoint span-55 text-08 text-orange]
+@snap[midpoint]
+@img[span-60](assets/img/indent.jpeg)
+@snapend
+
+@snap[east span-55 text-08 text-orange]
 @ul[circles](false)
 
-- GitHub Actions
-- CodeFresh
-- Travis
-- GitLab CI
-- Circle CI
+- [GitLab CI](https://docs.gitlab.com/ee/ci/)
+- [GitHub Actions](https://github.com/features/actions)
+- [CodeFresh](https://codefresh.io/)
+- [Travis](https://travis-ci.com/)
+- [Circle CI](https://circleci.com/)
 
 @ulend
 @snapend
 
 Note:
 
-- GitHub Actions
-- CodeFresh
-- Travis CI
-- GitLab CI
-- Circle CI
-- Don't trust Sec/Dev to run ther tests.
+- The picture is funny but remember to automate to the extent possible!
+  - Don't trust Sec/Dev to run thier tests.
 
 ---?image=assets/img/light_left.jpeg
 @title[CI]
 
-@snap[north-east span-70 text-20 text-bold text-right text-orange]
+@snap[north span-70 text-20 text-bold text-orange]
 CI Example
 @snapend
 
-@snap[south span-70]
+@snap[midpoint span-70]
 ![checks](assets/img/checks.png)
 @snapend
 
-Note:
+@snap[south span-100 text-08 text-orange]
+@ul[circles](false)
 
 - run your tests & linters when people check in new code
+
+@ulend
+@snapend
+Note:
+
+- run your tests & linters when folks check in new code
 
 ---?image=assets/img/light_left.jpeg
 @title[Scan]
 
-@snap[north-west span-100 text-20 text-bold text-right text-orange]
+@snap[north span-100 text-20 text-bold text-orange]
 Free Scanners
 @snapend
 
-@snap[midpoint span-55 text-08 text-orange]
+@snap[midpoint]
+@img[span-55](assets/img/tester.jpeg)
+@snapend
+
+@snap[east span-55 text-08 text-orange]
 @ul[circles](false)
 
 - [LGTM.com](https://lgtm.com/)
+  - [Semmle](https://blog.semmle.com/secure-software-github-semmle/) -> GH
 - [Renovate Bot](https://renovate.whitesourcesoftware.com/)
+- [GitHub security alerts](https://help.github.com/en/github/managing-security-vulnerabilities/about-security-alerts-for-vulnerable-dependencies)
 
 @ulend
 @snapend
@@ -469,6 +527,69 @@ Free Scanners
 Note:
 
 - Here are a few that I've been using lately
+- Take advantage of the free tools!
+- Looks good to me is how we tag PR's that don;t need much of a response.
+  - LGTM is good for Python
+  - Free for open source projects
+- Just started using Renovate myself but it is catching lots of package errors it seems like.
+
+---?image=assets/img/light_left.jpeg
+@title[Renovate]
+
+@snap[north span-100 text-20 text-bold text-orange]
+Renovate Example
+@snapend
+
+@snap[south span-70]
+![checks](assets/img/renovate_example.png)
+@snapend
+
+---?image=assets/img/light_left.jpeg
+@title[Guthub_Sec_Alerts]
+
+@snap[north-east span-100 text-20 text-bold text-center text-orange]
+GH Security Alerts Example
+@snapend
+
+@snap[south span-70]
+![checks](assets/img/github_alerts_ex.png)
+@snapend
+
+Note:
+
+- By this we mean something different than GitHub Alerts (the new CI tool)
+
+---?image=assets/img/light_left.jpeg
+@title[Commercial]
+
+@snap[north-west span-100 text-20 text-bold text-right text-orange]
+Commercial Scanners
+@snapend
+
+@snap[midpoint]
+![prisma](assets/img/prisma_api.png)
+@snapend
+
+@snap[south-west span-35 text-08]
+@box[text-orange](Commercial solutions exist as well)
+@snapend
+
+@snap[south-east span-35 text-08]
+@box[text-orange](Here I am scanning some Terraform via VSCode plugin -> API)
+@snapend
+
+@snap[south span-35 text-08]
+@box[text-orange](This is a decent solution because it is quick & easy)
+@snapend
+
+Note:
+
+- Sorry I had some trouble sizing this screenshot.
+- Commercial scanners exist as well
+- In this shot I am using a remote API to scan my Terraform for security issues.
+  - By the way there is a terraform linter available.
+  - It's easy to run "terraform -validate" via CI!
+- This is good but not great since it is voluntary rather than automated.
 
 ---?image=assets/img/light_left.jpeg
 @title[Policy]
@@ -500,6 +621,10 @@ Fun for the Red Team Too
 @snapend
 
 @snap[south-west span-35 text-08]
+@box[text-orange](Not just "blue"! Seeing more adoption by read teams)
+@snapend
+
+@snap[south span-35 text-08]
 @box[text-orange]([Testing Red Team Infra](https://blog.xpnsec.com/testing-redteam-infra/) by [@_xpn_](https://twitter.com/_xpn_))
 @snapend
 
@@ -515,6 +640,49 @@ Note:
 
 - First link is terraform/ansible/molecule, red team Infra as Code
 - Second link is using GitHub Actions to interface with Cobalt Strike.
+
+---?image=assets/img/black_and_blue.jpeg
+@title[Contact]
+
+@snap[north-west span-100 text-20 text-bold text-center text-yellow]
+Contact Me
+@snapend
+
+@snap[east span-30]
+![infosec](assets/img/infosec.jpeg)
+@snapend
+
+@snap[west text-12 text-orange text-left]
+@ul[circles](false)
+
+- [LinkedIn](https://www.linkedin.com/in/franklin-diaz/)
+- [Twitter](https://twitter.com/TheDevilsVoice)
+- [Keybase.io](https://keybase.io/frankthetank)
+
+@ulend
+@snapend
+
+Note:
+
+- A few ways you can reach me directly
+- Please do use "issues" tab on the repo for this presentation for issues related to that.
+
+---?image=assets/img/black_and_blue.jpeg
+@title[BeExcellent]
+
+@snap[north-west span-100 text-20 text-bold text-center text-yellow]
+Spread Positivity
+@snapend
+
+@snap[midpoint]
+![BeExcellent](https://media.giphy.com/media/ef0zYcF7AKu4b0Sns6/giphy.gif)
+@snapend
+
+Note:
+
+- The best Gen-X attitude!
+- Everyone has their personal struggles.
+  - Try to spread some goodness!
 
 ---?image=assets/img/light_left.jpeg
 @title[Thank You]
