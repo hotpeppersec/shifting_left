@@ -117,8 +117,8 @@ The Main Point
 @snap[midpoint text-08 span-40 text-orange]
 @ul[circles](true)
 
-- Lots of folks want to embed security people in the dev teams
-- Instead, let's get security folks to start thinking likes developers
+- Lots of folks want to embed security people with development teams.
+- Could we also get security folks to start thinking like developers?
 
 @ulend
 @snapend
