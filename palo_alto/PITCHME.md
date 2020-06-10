@@ -21,7 +21,7 @@ Introduction
 @snapend
 
 @snap[south-west span-35 text-08]
-@box[text-orange](You can [follow along on GitPitch](https://gitpitch.com/hotpeppersec/shifting_left/master?p=paloalto#/) if you like)
+@box[text-orange](You can [follow along on GitPitch](https://gitpitch.com/hotpeppersec/shifting_left/master?p=palo_alto#/) if you like)
 @snapend
 
 @snap[south span-35 text-08]

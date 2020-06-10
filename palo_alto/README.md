@@ -2,7 +2,7 @@
 
 ## Presentation with Speaker Notes
 
-[Presentation with Speaker Notes](https://gitpitch.com/hotpeppersec/shifting_left/master?n=true&p=paloalto#/)
+[Presentation with Speaker Notes](https://gitpitch.com/hotpeppersec/shifting_left/master?n=true&p=palo_alto#/)
 
 ## Local Git Pitch Env
 
