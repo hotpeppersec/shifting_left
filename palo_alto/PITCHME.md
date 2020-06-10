@@ -173,7 +173,7 @@ Note:
 Visual Studio Code Plugin
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-80]
 ![prisma](assets/img/prisma_api.png)
 @snapend
 
@@ -203,4 +203,70 @@ Note:
 
 @snap[north-west span-100 text-20 text-bold text-center text-orange]
 Key People at Palo Alto Networks
+@snapend
+
+---?image=assets/img/black_and_blue.jpeg
+@title[Contact]
+
+@snap[north-west span-100 text-20 text-bold text-center text-yellow]
+Contact Me
+@snapend
+
+@snap[east span-30]
+![infosec](assets/img/infosec.jpeg)
+@snapend
+
+@snap[west text-12 text-orange text-left]
+@ul[circles](false)
+
+- [LinkedIn](https://www.linkedin.com/in/franklin-diaz/)
+- [Twitter](https://twitter.com/TheDevilsVoice)
+- [Keybase.io](https://keybase.io/frankthetank)
+
+@ulend
+@snapend
+
+Note:
+
+- A few ways you can reach me directly
+- Please do use "issues" tab on the repo for this presentation for issues related to that.
+
+---?image=assets/img/black_and_blue.jpeg
+@title[BeExcellent]
+
+@snap[north-west span-100 text-20 text-bold text-center text-yellow]
+Spread Positivity
+@snapend
+
+@snap[midpoint]
+![BeExcellent](https://media.giphy.com/media/ef0zYcF7AKu4b0Sns6/giphy.gif)
+@snapend
+
+Note:
+
+- The best Gen-X attitude!
+- Everyone has their personal struggles.
+  - Try to spread some goodness!
+
+---?image=assets/img/light_left.jpeg
+@title[Thank You]
+
+@snap[north-west span-100 text-20 text-bold text-center text-orange]
+Thank You
+@snapend
+
+@snap[south-west span-35 text-08]
+@box[text-orange](All the folks who took time to review and provide feedback!)
+@snapend
+
+@snap[south span-35 text-08]
+@box[text-orange](Please use ["issues" for feedback/error reporting](https://github.com/hotpeppersec/shifting_left/issues))
+@snapend
+
+@snap[south-east span-35 text-08]
+@box[text-orange]([GitPitch Slide Decks for Developers](https://gitpitch.com/pricing))
+@snapend
+
+@snap[midpoint]
+![Thank You](https://media.giphy.com/media/3oKIPfFs4hPHemcU6I/giphy.gif)
 @snapend
